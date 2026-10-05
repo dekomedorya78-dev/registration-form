@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSS Online Member Registration</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Online Member User ID Registration</h2>
+
+    <form id="registerForm">
+
+        <label>CRN / SS Number</label>
+        <input type="text" id="ssn" required>
+
+        <label>Email Address</label>
+        <input type="email" id="email" required>
+
+        <label>Confirm Email Address</label>
+        <input type="email" id="confirmEmail" required>
+
+        <label>Preferred User ID</label>
+        <input type="text" id="userId" required>
+
+        <label>Confirm Preferred User ID</label>
+        <input type="text" id="confirmUserId" required>
+
+        <label>Surname / Last Name</label>
+        <input type="text" required>
+
+        <label>Given Name</label>
+        <input type="text" required>
+
+        <label>Middle Name</label>
+        <input type="text">
+
+        <label>Date of Birth</label>
+        <input type="date" required>
+
+        <label>Room / Floor / Unit No. & Building Name</label>
+        <input type="text">
+
+        <label>House / Lot & Block No.</label>
+        <input type="text">
+
+        <label>Street</label>
+        <input type="text">
+
+        <label>Subdivision</label>
+        <input type="text">
+
+        <div class="radio-group">
+            <input type="radio" name="location" checked>
+            <span>Metro Manila</span>
+
+            <input type="radio" name="location">
+            <span>Province</span>
+        </div>
+
+        <button type="submit">Register Account</button>
+
+        <p id="message"></p>
+
+    </form>
+
+</div>
+
+
+</body>
+</html>
